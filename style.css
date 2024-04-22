@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --PrimaryRaspberry: hsl(332, 51%, 32%);
+    --PrimaryNutmeg: hsl(14, 45%, 36%);
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+--LightGrey: hsl(30, 18%, 87%);
+--WengeBrown: hsl(30, 10%, 34%);
+--DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: var(--Eggshell );
+    color: var(--primary-color);
+   font-size:  16px;
+   display: flex;
+   justify-content: center;
+   line-height: 1.8;
+}
+.container {
+
+    width: 55%;
+    background-color: var(--White);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+border-radius: 20px;
+margin: 70px;
+padding: 35px;
+
+}
+
+.container img{
+    border-radius: 20px;
+}
+
+.container h1{font-size: 30px;
+margin: 20px;
+font-family: "Young Serif", serif;}
+.container p{
+    margin:  0px 20px;
+}
+.container .pink-box h2{
+margin: 0;
+    font-family: "Outfit", sans-serif;
+   }
+.container h2{
+    margin: 15px;
+    color:  var(  --PrimaryRaspberry);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+.container .pink-box {
+    padding: 30px ;
+background-color: var(--RoseWhite);
+margin: 20px;
+}
+.container ul {
+    margin-left: 40px ; 
+ 
+}
+ul li::marker {
+    color: var(--PrimaryNutmeg);
+}
+.container ol{
+    margin-left: 40px ; 
+    
+}
+ol li::marker {
+    color: var(--PrimaryNutmeg);
+    font-weight: 700;
+
+}
+.container span {
+    color: var(--DarkCharcoal);
+        font-weight: 700;
+    
+    
+}
+table tbody tr {
+    height: 48px;
+   
+    border-bottom: 1px solid var(--LightGrey)
+}
+table {
+    
+    margin: auto;
+    border-spacing: 1;
+    border-collapse: collapse;
+    overflow: hidden;
+    width: 100%;
+}td,
+th {
+    padding-left: 20px;
+}
+
+tbody tr:last-child {
+    border: 0;
+}
+.tabold {color: var(--PrimaryNutmeg);
+font-weight: 700;
+}
+.attribution{  
+    color: black;
+    text-align: center; 
+    padding: 20px;
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; }
